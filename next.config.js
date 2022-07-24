@@ -4,4 +4,6 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+    trailingSlash: true
+}
